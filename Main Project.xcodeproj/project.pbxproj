@@ -27,7 +27,6 @@
 		C4C3A7752A1BD12900F99342 /* CartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C3A7742A1BD12900F99342 /* CartCollectionViewCell.swift */; };
 		C4C3A7772A1BD4D900F99342 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C3A7762A1BD4D900F99342 /* CartViewController.swift */; };
 		C4C3A9E32A2980BA00F99342 /* FoodProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C3A9E22A2980BA00F99342 /* FoodProtocol.swift */; };
-		C4C3A9E72A2981A500F99342 /* PizzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C3A9E62A2981A500F99342 /* PizzaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +71,6 @@
 		C4C3A7742A1BD12900F99342 /* CartCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCollectionViewCell.swift; sourceTree = "<group>"; };
 		C4C3A7762A1BD4D900F99342 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		C4C3A9E22A2980BA00F99342 /* FoodProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodProtocol.swift; sourceTree = "<group>"; };
-		C4C3A9E62A2981A500F99342 /* PizzaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				C4C3A76C2A1A90DB00F99342 /* SushiModel.swift */,
-				C4C3A9E62A2981A500F99342 /* PizzaModel.swift */,
 			);
 			path = FoodModels;
 			sourceTree = "<group>";
@@ -327,7 +324,6 @@
 				C4C3A7712A1BCBF000F99342 /* Cart.swift in Sources */,
 				C4C3A7752A1BD12900F99342 /* CartCollectionViewCell.swift in Sources */,
 				C4C3A7692A19A24800F99342 /* MenuModel.swift in Sources */,
-				C4C3A9E72A2981A500F99342 /* PizzaModel.swift in Sources */,
 				C401546C2A1973B500C1BFF0 /* AppDelegate.swift in Sources */,
 				C4C3A76B2A1A8FE200F99342 /* GalleryCollectionView.swift in Sources */,
 				C4C3A7622A1995A900F99342 /* ContainerViewController.swift in Sources */,
