@@ -11,11 +11,6 @@ protocol ViewControllerDelegate {
     func toggleMenu()
 }
 
-
-
-
-
-
 let redCircleImageView: UIImageView = {
     let imageView = UIImageView()
     imageView.contentMode = .scaleAspectFit
@@ -37,7 +32,7 @@ var galleryCollectionView = GalleryCollectionView()
 
 class ViewController: UIViewController {
     
-    
+
     
     var delegate: ViewControllerDelegate?
     
@@ -62,7 +57,6 @@ class ViewController: UIViewController {
         constraints()
         setOpenMenuButtonPosition()
         view.backgroundColor = UIColor.white
-        //view.backgroundColor = UIColor(red: 51/255, green: 176/255, blue: 208/255, alpha: 1)
         setCounCartLabelPosition()
 
         setGalleryPosition()
@@ -82,10 +76,6 @@ class ViewController: UIViewController {
     
     func setOpenSideMenuButton() {
         openMenuButton.setImage(imageForMenuButton, for: .normal)
-        //openMenuButton.layer.cornerRadius = 25
-        //openMenuButton.clipsToBounds = true
-        //openMenuButton.layer.borderWidth = 5
-        //openMenuButton.layer.borderColor = UIColor.yellow.cgColor
         openMenuButton.addTarget(self, action: #selector(openMenu), for: .touchUpInside)
         
     }

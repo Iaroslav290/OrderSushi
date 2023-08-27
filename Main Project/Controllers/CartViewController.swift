@@ -47,24 +47,6 @@ class CartViewController: UIViewController {
         customTitleLabel.font = UIFont.boldSystemFont(ofSize: 40)
         navigationItem.titleView = customTitleLabel
         
-        
-        
-        
-//        let titleAttributes = [
-//                NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 35.0) // Set the desired font size
-//            ]
-//
-//            // Set the titleTextAttributes property of the navigation bar
-//            navigationController?.navigationBar.titleTextAttributes = titleAttributes
-//
-//        let topSpacing: CGFloat = 23.0
-//
-//
-//            // Set the titleVerticalPositionAdjustment property of the navigation bar
-//            navigationController?.navigationBar.setTitleVerticalPositionAdjustment(topSpacing, for: .default)
-//
-        
-//        scrollView.frame = CGRect(x: 0, y: 130, width: view.frame.width, height: view.frame.height)
         view.addSubview(scrollView)
         
         scrollView.addSubview(cartCollectionView)
@@ -117,22 +99,6 @@ class CartViewController: UIViewController {
         }
     }
     
-//    func setCartLabel() {
-//        cartLabel.text = "Cart"
-//        cartLabel.textAlignment = .left
-//        cartLabel.font = UIFont.boldSystemFont(ofSize: 35)
-//        cartLabel.textColor = .black
-//    }
-    
-//    func setCartLabelPosition() {
-//        NSLayoutConstraint.activate([
-//            cartLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
-//            cartLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -160),
-//            cartLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 95),
-//            cartLabel.heightAnchor.constraint(equalToConstant: 40)
-//
-//        ])
-//    }
     
     func setTotalItemsLabelPosition() {
         NSLayoutConstraint.activate([

@@ -68,46 +68,25 @@ class GalleryCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
             
             // Update the image of the addToCartButton in the cell
         
-        
-        //print("123 \(indexPath.item)")
-        
         sumOfPrices += cells[indexPath.row].cost
-        //print(sumOfPrices)
         
-        
-       
         
         if cartArray.contains(where: { $0.name == cells[indexPath.row].sushiNmae }) {
-           // print("123 \(indexPath.item)")
             
             if let index = cartArray.firstIndex(where: { $0.name == cells[indexPath.row].sushiNmae }) {
-                // Оновіть кількість елемента кошика
                 cartArray[index].quantity += 1
             }
             } else {
-                // Додавання нового елемента до масиву
                 cartArray.append(CartItem(name: "\(cells[indexPath.row].sushiNmae)", price: (cells[indexPath.row].cost), image: (cells[indexPath.row].mainImage), quantity: 1))
             }
         
-
-        
-        //cartArray.append(CartItem(name: "\(cells[indexPath.row].sushiNmae)", price: "\(cells[indexPath.row].cost)", image: (cells[indexPath.row].mainImage)))
-        
         redCircleImageView.isHidden = false
-//        countCartLabel.text = "\(cartArray.count)"
         
         
         totalItemCount = cartArray.reduce(0, { $0 + $1.quantity })
             print("Загальна кількість елементів в cartArray: \(totalItemCount)")
         
-        countCartLabel.text = "\(totalItemCount)"
-       
-        
-        //cell?.addToCartButton.isEnabled = false
-        //cell?.addToCartButton.setImage(UIImage(named: "addedToCart"), for: .disabled)
-        
-       
-        
+        countCartLabel.text = "\(totalItemCount)"       
         
         var updatedSushiModel = cells[indexPath.row]
         updatedSushiModel.addToCartImage = UIImage(named: "addedToCart")!

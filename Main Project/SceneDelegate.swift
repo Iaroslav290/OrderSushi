@@ -22,7 +22,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         
         let controller = ContainerViewController()
-        //let navigationController = UINavigationController(rootViewController: controller)
         let navigationController = UINavigationController()
         navigationController.viewControllers.append(controller)
         

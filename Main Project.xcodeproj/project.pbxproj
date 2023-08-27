@@ -26,7 +26,6 @@
 		C4C3A7732A1BD11B00F99342 /* CartCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C3A7722A1BD11B00F99342 /* CartCollectionView.swift */; };
 		C4C3A7752A1BD12900F99342 /* CartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C3A7742A1BD12900F99342 /* CartCollectionViewCell.swift */; };
 		C4C3A7772A1BD4D900F99342 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C3A7762A1BD4D900F99342 /* CartViewController.swift */; };
-		C4C3A9E32A2980BA00F99342 /* FoodProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C3A9E22A2980BA00F99342 /* FoodProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +69,6 @@
 		C4C3A7722A1BD11B00F99342 /* CartCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCollectionView.swift; sourceTree = "<group>"; };
 		C4C3A7742A1BD12900F99342 /* CartCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCollectionViewCell.swift; sourceTree = "<group>"; };
 		C4C3A7762A1BD4D900F99342 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
-		C4C3A9E22A2980BA00F99342 /* FoodProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 				C401546B2A1973B500C1BFF0 /* AppDelegate.swift */,
 				C401546D2A1973B500C1BFF0 /* SceneDelegate.swift */,
 				C4C3A9E52A29815000F99342 /* FoodModels */,
-				C4C3A9E12A29805000F99342 /* Protocols */,
 				C4C3A7652A1995BA00F99342 /* Controllers */,
 				C40154742A1973B500C1BFF0 /* Assets.xcassets */,
 				C4C3A7662A199C8100F99342 /* MenuTableCell.swift */,
@@ -166,14 +163,6 @@
 				C4C3A7632A1995B100F99342 /* MenuViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		C4C3A9E12A29805000F99342 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				C4C3A9E22A2980BA00F99342 /* FoodProtocol.swift */,
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		C4C3A9E52A29815000F99342 /* FoodModels */ = {
@@ -320,7 +309,6 @@
 				C4C3A76F2A1A924700F99342 /* GalleryCollectionViewCell.swift in Sources */,
 				C4C3A7672A199C8100F99342 /* MenuTableCell.swift in Sources */,
 				C4C3A7642A1995B100F99342 /* MenuViewController.swift in Sources */,
-				C4C3A9E32A2980BA00F99342 /* FoodProtocol.swift in Sources */,
 				C4C3A7712A1BCBF000F99342 /* Cart.swift in Sources */,
 				C4C3A7752A1BD12900F99342 /* CartCollectionViewCell.swift in Sources */,
 				C4C3A7692A19A24800F99342 /* MenuModel.swift in Sources */,
